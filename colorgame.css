@@ -1,0 +1,88 @@
+body
+{
+	background: #232323;
+	margin: 0;
+	font-family: 'Inconsolata', monospace;
+}
+
+.square
+{
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 50%;
+	transition: background 1.0s;
+}
+
+#container
+{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+h1
+{   
+	color: white;
+	text-transform: uppercase;
+ 	text-align: center;
+ 	background: steelblue;
+ 	margin: 0;
+ 	min-height: 80px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+}
+
+#upper
+{   
+	background: rgb(255, 255, 255);
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+.apply
+{
+	background: #232323;
+}
+
+#patel
+{
+   display: inline-block;
+   width: 20%;
+}
+
+.selected
+{
+	background: steelblue;
+	color:white;
+}
+
+#choosed
+{
+	font-size: 50px;
+}
+
+button
+{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	color: steelblue;
+	font-weight: 700;
+	letter-spacing: 1px;
+	height: 100%;
+	transition: all 0.5s;
+	outline: none;
+}
+
+button:hover
+{
+	background: steelblue;
+	color:white;
+}
+
+.fader
+{
+	background: red;
+}
